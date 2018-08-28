@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>四川兴事发门窗有限责任公司</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="header clearfix">
+    <div class="t clearfix">
+        <div class="logobox">
+            <a href="index.html" class="logo"><img src="images/logo.png" class="lgImg"></a>
+            <span class="sj sj-r"></span>
+        </div>
+        <div class="searchbox"><input type="text" class="sear-tx"><a href="#" class="sear-btn iconfont icon-sousuo"></a></div>
+    </div>
+    <div class="b clearfix">
+        <ul class="nav">
+            <li><a href="index.html" class="act">首页</a></li>
+            <li><a href="ent.html">走进兴事发</a></li>
+            <li><a href="news.html">新闻中心</a></li>
+            <li><a href="exhi.html">3D展厅</a></li>
+            <li><a href="pro.html">产品中心</a></li>
+            <li><a href="ser.html">服务中心</a></li>
+            <li><a href="bra.html">分公司</a></li>
+            <li><a href="job.html">人力资源</a></li>
+            <li><a href="achi.html">业绩展</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+        <div class="tools">
+            <a href="#" class="tao iconfont icon-taobao2"></a>
+            <a href="#" class="wx iconfont icon-weixin"></a>
+        </div>
+    </div>
+   
+</div>
+
+
+
+<div class="mtop"></div>
+
+<div class="banner u-slick cg-m">
+    <div class="item">
+        <div class="pic2"><img src="img/banner1.jpg" class="igm" alt=""></div>
+        <div class="txts">
+            <div class="tb">
+                <div class="tbc">
+                    <p class="ch fwb splwo zoomIn">愿天下人兴，助事业者发</p>
+                    <p class="en fsi ttu">xingshifa door & window</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="pic2"><img src="img/banner2.jpg" class="igm" alt=""></div>
+        <div class="txts">
+            <div class="tb">
+                <div class="tbc">
+                    <p class="ch fwb splwo zoomIn">愿天下人兴，助事业者发</p>
+                    <p class="en fsi ttu">xingshifa door & window</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    
+</div>
+
+<div class="footer">
+	<div class="pw">
+		<div class="clearfix">
+			<div class="f-ctas">
+				<p><a href="#">ADD：成都市高新区天仁路387号大鼎世纪广场2栋606</a></p>
+				<p><a href="tel:02885431466" class="na">TEL：028-85431466</a><i>/</i><span>FAX：028-85441455</span></p>
+			</div>
+			<div class="f-links">
+				<div class="friendship-link">
+	                <p class="s">友情链接<i class="aico"></i></p>
+	                <div class="k">
+	                    <div class="g">
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                        <a href="#" class="nowti">友情链接</a>
+	                    </div>
+	                </div>
+	            </div>
+	            <a href="#" class="lk">企业邮箱</a>
+			</div>
+		</div>
+		<p class="f-cop">COPYRIGHT© 四川原皓源环境工程有限公司<span>川公网安备 51012902000029号</span><a href="#">网站设计：赛门仕博</a></p>
+	</div>
+</div>
+<div id="top" class="ttu tac">top</div>
+<script src="js/plugin.js"></script>
+
+<div class="vwrap">
+    <div class="videobtg"></div>
+    <div class="videobox">
+        <div id="videobox"></div>
+        <div class="close"><i></i></div>
+    </div>
+</div>
+<script src="js/video/player.mini.js"></script>
+<script src="js/page.js"></script>
+<script>
+    // var k = $('.cp-list li').length;
+    function indexBox(){
+        // if (w_width <= 861) {
+        //     k = 3;
+        // } else {
+        //     k = $('.cp-list li').length;
+        // }
+        if(!isMobile){
+            $('.banner').css({ height: w_height - $mtoph });
+            $('.banner .item').css({ height: w_height - $mtoph });
+            setImgMax($('.banner .pic2'), 1920, 880, w_width, w_height - $mtoph);
+            // setImgMax($('#vi'), 1440, 1080, w_width, w_height - $mtoph);
+        }else{
+            $('.banner').css({ height: 'auto' });
+            $('.banner .item').css({ height: 'auto' });
+            $('.banner .pic2').attr({ 'style': '' });
+            // $('#vi').attr({ 'style': '' });
+        }
+    };
+    indexBox();
+    $(window).resize(function () {
+        indexBox();
+    });
+    $(function(){
+        $('.banner').on('init', function(event, slick, currentSlide, nextSlide) {
+            $('.banner .item').first().addClass('active');
+        });
+
+        var bannerSlick = $('.banner').slick({
+            speed: 1000,
+            arrows: true,
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            fade: true,
+            pauseOnHover: false
+        }).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+            $('.banner .item').removeClass('active');
+            $('.banner .item').eq(nextSlide).addClass('active');
+        });
+
+        // splitWords($('.splwo'));
+        
+
+
+
+
+        // function getAjaxHtml(item,address,num){
+        //     $.ajax({
+        //         url: address,
+        //         dataType: "html",
+        //         success: function (data) {
+        //             if (data == "" || data == null) {
+        //                 return;
+        //             } else {
+        //                 if ($('.cp-tx').size() !== 0) { $('.cp-tx').remove(); }
+        //                 $('.cp-list li').eq(num).after(data);
+        //                 $('.cp-list a').removeClass('act');
+        //                 item.addClass('act');
+        //                 setTimeout(function(){
+        //                     $('.cp-tx').addClass('show');
+        //                 },100);
+        //             }
+        //         },
+        //         error: function (XMLHttpRequest, textStatus, errorThrown) {
+        //             $('.cp-tx').remove();
+        //         }
+        //     })
+        // };
+        // $(document).on(_click,'.cp-list a',function(e){
+        //     e.preventDefault();
+        //     var $this = $(this);
+        //     var n = (Math.floor($this.parent().index() / k) + 1) * k - 1;
+        //     if( n > $('.cp-list li').length - 1)
+        //         n = $('.cp-list li').length - 1;
+        //     getAjaxHtml($this, $this.attr('href'), n);
+        //     $('html,body').animate({scrollTop: $this.parent().offset().top - $mtoph}, 800);
+        // });
+        // getAjaxHtml($('.cp-list li').eq(0).find('a'), $('.cp-list li').eq(0).find('a').attr('href'), k - 1);
+        // $(window).resize(function () {
+        //      getAjaxHtml($('.cp-list li').eq(0).find('a'), $('.cp-list li').eq(0).find('a').attr('href'), k - 1);
+        // });
+
+        // $('.ip-list li').each(function(i, e) {
+        //     $(this).css({
+        //         'transition-delay': 200*i + 'ms',
+        //         '-webkit-transition-delay': 200*i + 'ms'
+        //     });
+        // });
+
+        //  $('.cp-list li').each(function(i, e) {
+        //     $(this).css({
+        //         'transition-delay': 200*i + 'ms',
+        //         '-webkit-transition-delay': 200*i + 'ms'
+        //     });
+        // });
+    })
+</script>
+</body>
+</html>
